@@ -1,8 +1,7 @@
 import React from 'react'
 class Events extends React.Component{
 	state={
-		username:""
-		
+		username:""		
 	}
 	handleClick=()=>{
 		console.log(this.state.username)
@@ -15,8 +14,7 @@ class Events extends React.Component{
 			[e.target.name]:e.target.value
 		})
 	}
-	render(){
-		
+	render(){		
 		return(
 			<div>
 				<input 
